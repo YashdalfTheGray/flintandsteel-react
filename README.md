@@ -1,5 +1,6 @@
-# react-es6-md-starter
-React 15.2.1, Babel, ES6 and Material UI 0.15.2 starter kit
+# flintandsteel-react
+
+Flintandsteel prototype in react...for testing. 
 
 ## Getting started
 

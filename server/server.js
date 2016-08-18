@@ -32,6 +32,8 @@ app.use(morgan(':remote-addr - ' +
 
 app.use(express.static(path.join(__dirname + '/../dist')));
 
+app.use('/api/ideas', require('./ideas')());
+
 app.listen(port);
 
 console.log('Server listening on port ' + chalk.green(port));

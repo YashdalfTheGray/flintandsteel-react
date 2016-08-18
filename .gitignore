@@ -1,6 +1,9 @@
 # build folders
 dist/
 
+# dummy data
+**/**.dummy.*
+
 # Created by https://www.gitignore.io/api/osx,windows,sublimetext,webstorm,node,bower
 
 ### OSX ###

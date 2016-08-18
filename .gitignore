@@ -2,7 +2,7 @@
 dist/
 
 # dummy data
-**/**.dummy.*
+**/*.dummy.*
 
 # Created by https://www.gitignore.io/api/osx,windows,sublimetext,webstorm,node,bower
 

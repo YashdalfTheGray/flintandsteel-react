@@ -33,6 +33,7 @@ app.use(morgan(':remote-addr - ' +
 app.use(express.static(path.join(__dirname + '/../dist')));
 
 app.use('/api/ideas', require('./ideas')());
+app.use('/api/users', require('./users')());
 
 app.listen(port);
 
